@@ -12,7 +12,7 @@ public class Main {
         travelers.add("Nika");
 
         for (String traveler:travelers) {
-            System.out.println("Hi, traveler" + traveler);
+            System.out.println("Hi, traveler" + " " + traveler);
         }
         //anonymous forEach realisation
         travelers.forEach(new Consumer<String>() {

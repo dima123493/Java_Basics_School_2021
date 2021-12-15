@@ -15,6 +15,7 @@ public class ExeptionExamples {
         catch(ArithmeticException e) {
             System.out.println ("Can't divide a number by 0");
         }
+
     }
 
     public static void main1(String args[])  {
